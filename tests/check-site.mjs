@@ -17,6 +17,7 @@ const requirements = [
   ["parent phone field", /name="phone"/],
   ["child age field", /name="child-age"/],
   ["WhatsApp hook", /https:\/\/wa\.me\/91XXXXXXXXXX/],
+  ["floating WhatsApp icon", /class="floating-whatsapp"[\s\S]*<svg[\s\S]*aria-hidden="true"/],
   ["email hook", /mailto:admissions@rainbowmontessori\.school/],
   ["map section", /Google Maps|Open in Google Maps/i],
   ["Instagram placeholder", /Instagram/i],
