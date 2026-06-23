@@ -40,6 +40,13 @@ The form in `index.html` is Netlify Forms-compatible:
 
 After Netlify deploys the site, submissions will appear in the Netlify dashboard. Email notifications can be configured there.
 
+Spam protection is included in two layers:
+
+- A hidden honeypot field using `netlify-honeypot="bot-field"`.
+- Netlify reCAPTCHA markup using `<div data-netlify-recaptcha="true"></div>`.
+
+After deployment, check the Netlify Forms settings for the site and confirm spam filtering/reCAPTCHA is active for the `admission-enquiry` form.
+
 ## WhatsApp Links
 
 WhatsApp links use this pattern:

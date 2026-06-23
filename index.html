@@ -1043,7 +1043,7 @@
 
           <div class="form-card" id="enquiry">
             <h3>Admission enquiry form</h3>
-            <p class="body-copy">This form is ready for Netlify Forms. After deployment, Netlify can collect submissions without backend code.</p>
+            <p class="body-copy">This form is ready for Netlify Forms with honeypot and reCAPTCHA spam protection. After deployment, Netlify can collect submissions without backend code.</p>
             <form name="admission-enquiry" method="POST" data-netlify="true" netlify-honeypot="bot-field">
               <input type="hidden" name="form-name" value="admission-enquiry" />
               <label style="display:none">Do not fill this field<input name="bot-field" /></label>
@@ -1081,6 +1081,7 @@
               <label>Message
                 <textarea name="message" placeholder="Tell us your preferred admission month, visit timing, or any questions."></textarea>
               </label>
+              <div data-netlify-recaptcha="true"></div>
               <button class="btn" type="submit">Submit Enquiry</button>
             </form>
           </div>

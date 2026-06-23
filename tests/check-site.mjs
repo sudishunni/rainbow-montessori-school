@@ -14,6 +14,8 @@ const requirements = [
   ["Montessori method section", /Prepared environment[\s\S]*Teacher observation[\s\S]*Parent clarity/i],
   ["campus section", /Campus Life|Campus Visit|Schedule a Campus Visit/i],
   ["Netlify form", /data-netlify="true"/],
+  ["Netlify honeypot", /netlify-honeypot="bot-field"/],
+  ["Netlify reCAPTCHA", /data-netlify-recaptcha="true"/],
   ["parent phone field", /name="phone"/],
   ["child age field", /name="child-age"/],
   ["WhatsApp hook", /https:\/\/wa\.me\/91XXXXXXXXXX/],
