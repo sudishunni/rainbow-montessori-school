@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Rainbow Montessori School in Madambakkam, Chennai. Montessori preschool admissions, programs, campus visit enquiry, WhatsApp and email contact." />
+  <title>Rainbow Montessori School Madambakkam</title>
+  <style>
+    :root {
+      --ink: #222342;
+      --body: #5a6072;
+      --purple: #3d3f97;
+      --blue: #2d64c8;
+      --sky: #2f8edb;
+      --green: #28a654;
+      --yellow: #f4bf2f;
+      --orange: #ec7b28;
+      --pink: #df4c9a;
+      --red: #dd3f3f;
+      --star: #e3ba38;
+      --paper: #fffdf8;
+      --soft: #f7f7fb;
+      --line: #e3e3ea;
+      --shadow: 0 24px 70px rgba(34, 35, 66, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: 0;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button,
+    input,
+    select,
+    textarea {
+      font: inherit;
+    }
+
+    .wrap,
+    .nav,
+    .topbar-inner {
+      width: min(1220px, 100%);
+      margin: 0 auto;
+      padding-left: 34px;
+      padding-right: 34px;
+    }
+
+    .topbar {
+      color: white;
+      background: linear-gradient(90deg, var(--purple), var(--pink), var(--orange));
+      font-size: 13px;
+    }
+
+    .topbar-inner {
+      min-height: 38px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .topbar span {
+      color: rgba(255, 255, 255, 0.82);
+    }
+
+    .nav-shell {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      background: rgba(255, 253, 248, 0.94);
+      backdrop-filter: blur(18px);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .nav {
+      min-height: 92px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 28px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      min-width: 330px;
+    }
+
+    .logo-disc {
+      width: 70px;
+      height: 70px;
+      border: 1px solid #d7d7dd;
+      border-radius: 50%;
+      background: white;
+      position: relative;
+      box-shadow: 0 10px 28px rgba(45, 45, 75, 0.08);
+      overflow: hidden;
+      flex: 0 0 auto;
+    }
+
+    .logo-star {
+      position: absolute;
+      left: 9px;
+      top: 31px;
+      width: 24px;
+      height: 24px;
+      background: var(--star);
+      clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 56%, 79% 91%, 50% 70%, 21% 91%, 32% 56%, 2% 35%, 39% 35%);
+      filter: drop-shadow(0 3px 4px rgba(117, 89, 15, 0.28));
+    }
+
+    .brand-rainbow {
+      position: absolute;
+      left: 18px;
+      top: 13px;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      border: 4px solid transparent;
+      border-top-color: var(--pink);
+      transform: rotate(-36deg);
+    }
+
+    .brand-rainbow::before,
+    .brand-rainbow::after {
+      content: "";
+      position: absolute;
+      border-radius: 50%;
+      border: 4px solid transparent;
+    }
+
+    .brand-rainbow::before {
+      inset: 5px;
+      border-top-color: var(--yellow);
+    }
+
+    .brand-rainbow::after {
+      inset: 13px;
+      border-top-color: var(--green);
+      box-shadow: 0 -8px 0 -4px var(--sky);
+    }
+
+    .drops {
+      position: absolute;
+      right: 8px;
+      bottom: 12px;
+      width: 20px;
+      height: 20px;
+    }
+
+    .drops span {
+      position: absolute;
+      width: 9px;
+      height: 16px;
+      border-radius: 9px 9px 9px 0;
+      background: var(--blue);
+    }
+
+    .drops span:nth-child(1) {
+      left: 7px;
+      top: 0;
+      transform: rotate(45deg);
+    }
+
+    .drops span:nth-child(2) {
+      left: 0;
+      top: 8px;
+      transform: rotate(-35deg);
+    }
+
+    .brand-title {
+      display: block;
+      font-size: 24px;
+      line-height: 1;
+      font-weight: 850;
+    }
+
+    .brand-title span:nth-child(1) {
+      color: var(--purple);
+    }
+
+    .brand-title span:nth-child(2) {
+      color: var(--red);
+    }
+
+    .brand-title span:nth-child(3) {
+      color: var(--green);
+    }
+
+    .brand-place {
+      display: block;
+      margin-top: 6px;
+      color: var(--body);
+      font-size: 12px;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      color: #343a55;
+      font-size: 14px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: 0;
+      border-radius: 8px;
+      padding: 13px 18px;
+      background: var(--purple);
+      color: white;
+      font-weight: 800;
+      white-space: nowrap;
+      box-shadow: 0 10px 22px rgba(61, 63, 151, 0.16);
+      cursor: pointer;
+    }
+
+    .btn.alt {
+      background: white;
+      color: var(--purple);
+      border: 1px solid #d7d8e8;
+      box-shadow: none;
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      background:
+        linear-gradient(90deg, rgba(255, 253, 248, 0.98) 0%, rgba(255, 253, 248, 0.88) 49%, rgba(255, 253, 248, 0.2) 100%),
+        url("https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1800&q=85") center / cover;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      right: -140px;
+      top: 74px;
+      width: 520px;
+      height: 520px;
+      border-radius: 50%;
+      border: 1px solid rgba(61, 63, 151, 0.13);
+      pointer-events: none;
+    }
+
+    .hero .wrap {
+      position: relative;
+      z-index: 1;
+      min-height: 690px;
+      display: grid;
+      grid-template-columns: minmax(0, 650px) 1fr;
+      align-items: center;
+      padding-top: 58px;
+      padding-bottom: 64px;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      padding: 8px 12px;
+      border: 1px solid #dedfec;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.84);
+      color: var(--purple);
+      font-size: 13px;
+      font-weight: 850;
+    }
+
+    .tag::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--star);
+    }
+
+    h1,
+    h2 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-weight: 500;
+      letter-spacing: 0;
+    }
+
+    h1 {
+      margin: 18px 0 20px;
+      font-size: clamp(50px, 7vw, 92px);
+      line-height: 0.92;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 46px;
+      line-height: 1.04;
+    }
+
+    .rainbow-word {
+      background: linear-gradient(90deg, var(--purple), var(--sky), var(--green), var(--yellow), var(--orange), var(--pink));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .lead {
+      margin: 0;
+      max-width: 620px;
+      color: var(--body);
+      font-size: 19px;
+      line-height: 1.72;
+    }
+
+    .hero-actions,
+    .quick-actions {
+      display: flex;
+      align-items: center;
+      gap: 13px;
+      flex-wrap: wrap;
+    }
+
+    .hero-actions {
+      margin-top: 30px;
+    }
+
+    .quick-actions {
+      margin-top: 22px;
+    }
+
+    .mini-proof {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      max-width: 620px;
+      margin-top: 42px;
+    }
+
+    .mini-proof div {
+      background: rgba(255, 255, 255, 0.9);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 15px;
+    }
+
+    .mini-proof div:nth-child(1) {
+      border-top: 4px solid var(--pink);
+    }
+
+    .mini-proof div:nth-child(2) {
+      border-top: 4px solid var(--green);
+    }
+
+    .mini-proof div:nth-child(3) {
+      border-top: 4px solid var(--blue);
+    }
+
+    .mini-proof b {
+      display: block;
+      font-size: 22px;
+    }
+
+    .mini-proof span {
+      display: block;
+      margin-top: 4px;
+      color: var(--body);
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .section {
+      padding-top: 76px;
+      padding-bottom: 76px;
+    }
+
+    .section.soft {
+      background: var(--soft);
+    }
+
+    .section-head {
+      display: grid;
+      grid-template-columns: minmax(0, 620px) minmax(280px, 420px);
+      gap: 70px;
+      align-items: end;
+      margin-bottom: 32px;
+    }
+
+    .section-head p,
+    .body-copy {
+      margin: 0;
+      color: var(--body);
+      line-height: 1.72;
+      font-size: 16px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .card {
+      background: white;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 18px 40px rgba(34, 35, 66, 0.06);
+    }
+
+    .card img {
+      width: 100%;
+      height: 218px;
+      object-fit: cover;
+    }
+
+    .card-body {
+      padding: 24px;
+    }
+
+    .card h3 {
+      margin: 0 0 10px;
+      font-size: 23px;
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--body);
+      line-height: 1.65;
+    }
+
+    .card:nth-child(1) .card-body {
+      border-top: 5px solid var(--yellow);
+    }
+
+    .card:nth-child(2) .card-body {
+      border-top: 5px solid var(--green);
+    }
+
+    .card:nth-child(3) .card-body {
+      border-top: 5px solid var(--pink);
+    }
+
+    .method {
+      display: grid;
+      grid-template-columns: 0.95fr 1.05fr;
+      gap: 48px;
+      align-items: center;
+    }
+
+    .method-photo {
+      border-radius: 18px;
+      overflow: hidden;
+      min-height: 520px;
+      background: #ddd;
+      box-shadow: var(--shadow);
+    }
+
+    .method-photo img {
+      width: 100%;
+      height: 100%;
+      min-height: 520px;
+      object-fit: cover;
+    }
+
+    .method-list {
+      display: grid;
+      gap: 14px;
+      margin-top: 30px;
+    }
+
+    .method-item {
+      display: grid;
+      grid-template-columns: 44px 1fr;
+      gap: 16px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: white;
+    }
+
+    .num {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: white;
+      font-weight: 850;
+    }
+
+    .method-item:nth-child(1) .num {
+      background: var(--purple);
+    }
+
+    .method-item:nth-child(2) .num {
+      background: var(--green);
+    }
+
+    .method-item:nth-child(3) .num {
+      background: var(--pink);
+    }
+
+    .method-item h3 {
+      margin: 0 0 6px;
+      font-size: 19px;
+    }
+
+    .method-item p {
+      margin: 0;
+      color: var(--body);
+      line-height: 1.6;
+    }
+
+    .split-cta {
+      background: linear-gradient(92deg, var(--purple), var(--blue) 46%, var(--pink));
+      color: white;
+    }
+
+    .split-cta .wrap {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 28px;
+      align-items: center;
+      padding-top: 48px;
+      padding-bottom: 48px;
+    }
+
+    .split-cta h2 {
+      max-width: 760px;
+      font-size: 38px;
+    }
+
+    .split-cta p {
+      margin: 13px 0 0;
+      color: rgba(255, 255, 255, 0.82);
+      line-height: 1.65;
+      max-width: 650px;
+    }
+
+    .split-cta .btn {
+      background: white;
+      color: var(--purple);
+      box-shadow: none;
+    }
+
+    .admission-flow {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+    }
+
+    .flow-step {
+      background: white;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 22px;
+    }
+
+    .flow-step strong {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--purple);
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+
+    .flow-step h3 {
+      margin: 0 0 8px;
+      font-size: 19px;
+    }
+
+    .flow-step p {
+      margin: 0;
+      color: var(--body);
+      line-height: 1.6;
+      font-size: 14px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr 0.8fr;
+      grid-template-rows: 220px 220px;
+      gap: 14px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 14px;
+    }
+
+    .gallery img:first-child {
+      grid-row: span 2;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 0.9fr 1.1fr;
+      gap: 28px;
+      align-items: stretch;
+    }
+
+    .contact-card,
+    .form-card,
+    .map-card {
+      background: white;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 26px;
+      box-shadow: 0 18px 40px rgba(34, 35, 66, 0.06);
+    }
+
+    .contact-list {
+      display: grid;
+      gap: 14px;
+      margin-top: 22px;
+    }
+
+    .contact-list a,
+    .contact-list div {
+      display: block;
+      padding: 15px;
+      border-radius: 10px;
+      background: var(--soft);
+      color: var(--ink);
+      line-height: 1.45;
+    }
+
+    .contact-list small {
+      display: block;
+      margin-top: 4px;
+      color: var(--body);
+    }
+
+    form {
+      display: grid;
+      gap: 14px;
+    }
+
+    .field-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    label {
+      display: grid;
+      gap: 7px;
+      color: #30354f;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      border: 1px solid #d8d9e7;
+      border-radius: 9px;
+      padding: 12px 13px;
+      background: #fff;
+      color: var(--ink);
+    }
+
+    textarea {
+      min-height: 118px;
+      resize: vertical;
+    }
+
+    .map-card {
+      margin-top: 20px;
+      background:
+        linear-gradient(135deg, rgba(61, 63, 151, 0.95), rgba(47, 142, 219, 0.86)),
+        radial-gradient(circle at 80% 20%, rgba(244, 191, 47, 0.55), transparent 32%);
+      color: white;
+    }
+
+    .map-card p {
+      color: rgba(255, 255, 255, 0.78);
+      line-height: 1.65;
+      max-width: 680px;
+    }
+
+    .footer {
+      background: #222342;
+      color: white;
+      padding: 46px 0;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr 0.8fr 0.8fr;
+      gap: 26px;
+    }
+
+    .footer h3 {
+      margin: 0 0 13px;
+      font-size: 16px;
+    }
+
+    .footer p {
+      margin: 0;
+      color: rgba(255, 255, 255, 0.72);
+      line-height: 1.65;
+      font-size: 14px;
+    }
+
+    .floating-whatsapp {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      z-index: 30;
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: white;
+      background: #25d366;
+      font-weight: 900;
+      box-shadow: 0 14px 30px rgba(37, 211, 102, 0.32);
+    }
+
+    @media (max-width: 980px) {
+      .topbar-inner {
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+
+      .nav {
+        min-height: 0;
+        padding-top: 16px;
+        padding-bottom: 16px;
+      }
+
+      .nav-links a {
+        display: none;
+      }
+
+      .brand {
+        min-width: 0;
+      }
+
+      .brand-title {
+        font-size: 20px;
+      }
+
+      .hero .wrap,
+      .section-head,
+      .method,
+      .split-cta .wrap,
+      .contact-grid,
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero .wrap {
+        min-height: auto;
+      }
+
+      .mini-proof,
+      .cards,
+      .admission-flow,
+      .gallery {
+        grid-template-columns: 1fr;
+      }
+
+      .gallery {
+        grid-template-rows: none;
+      }
+
+      .gallery img,
+      .gallery img:first-child {
+        height: 230px;
+        grid-row: auto;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .wrap,
+      .nav,
+      .topbar-inner {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      .logo-disc {
+        width: 58px;
+        height: 58px;
+      }
+
+      .brand {
+        gap: 10px;
+      }
+
+      .nav-links .btn {
+        display: none;
+      }
+
+      h1 {
+        font-size: 48px;
+      }
+
+      h2 {
+        font-size: 34px;
+      }
+
+      .section {
+        padding-top: 54px;
+        padding-bottom: 54px;
+      }
+
+      .field-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .btn {
+        width: 100%;
+      }
+
+      .floating-whatsapp {
+        width: 52px;
+        height: 52px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div><strong>Admissions enquiry open</strong> <span>for Toddler, Casa and School Readiness programs</span></div>
+      <div>Madambakkam, Chennai | Replace phone before launch</div>
+    </div>
+  </div>
+
+  <header class="nav-shell">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Rainbow Montessori School home">
+        <span class="logo-disc" aria-hidden="true">
+          <span class="brand-rainbow"></span>
+          <span class="logo-star"></span>
+          <span class="drops"><span></span><span></span></span>
+        </span>
+        <span>
+          <strong class="brand-title"><span>Rainbow</span> <span>Montessori</span> <span>School</span></strong>
+          <span class="brand-place">Madambakkam, Chennai</span>
+        </span>
+      </a>
+      <div class="nav-links">
+        <a href="#programs">Programs</a>
+        <a href="#method">Montessori</a>
+        <a href="#campus">Campus Life</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#contact">Contact</a>
+        <a class="btn" href="#enquiry">Book a Visit</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap">
+        <div>
+          <div class="tag">Montessori preschool in Madambakkam</div>
+          <h1 id="hero-title">A <span class="rainbow-word">bright</span> start for calm, independent children.</h1>
+          <p class="lead">Rainbow Montessori School gives young children a prepared environment where they can explore, concentrate, communicate, and grow at their own pace with careful teacher guidance.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#enquiry">Start Admission Enquiry</a>
+            <a class="btn alt" href="#method">See the Montessori Approach</a>
+          </div>
+          <div class="mini-proof" aria-label="School highlights">
+            <div><b>2.5-6</b><span>Early years age range</span></div>
+            <div><b>3</b><span>Learning stages for parents to understand</span></div>
+            <div><b>Visit</b><span>Campus tour before admission decision</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft" id="programs" aria-labelledby="programs-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="programs-title">Everything parents need to evaluate the school quickly.</h2>
+          <p>The page answers real admission questions: age group, method, daily rhythm, enquiry path, location, and why the environment feels trustworthy.</p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1588075592446-265fd1e6e76f?auto=format&fit=crop&w=900&q=85" alt="Children reading together in a classroom" />
+            <div class="card-body">
+              <h3>Toddler Readiness</h3>
+              <p>A gentle transition into classroom rhythm, listening, movement, language, and care of self.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1596464716127-f2a82984de30?auto=format&fit=crop&w=900&q=85" alt="Child working at a table" />
+            <div class="card-body">
+              <h3>Casa Montessori</h3>
+              <p>Practical life, sensorial work, early language, numeracy, art, music, and purposeful choice.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1604881991720-f91add269bed?auto=format&fit=crop&w=900&q=85" alt="Children learning in class" />
+            <div class="card-body">
+              <h3>School Readiness</h3>
+              <p>Confidence, concentration, social grace, number sense, literacy foundations, and independence.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="method" aria-labelledby="method-title">
+      <div class="wrap method">
+        <div class="method-photo">
+          <img src="https://images.unsplash.com/photo-1544776193-352d25ca82cd?auto=format&fit=crop&w=1100&q=85" alt="Preschool activity with children" />
+        </div>
+        <div>
+          <h2 id="method-title">Montessori explained in parent language.</h2>
+          <p class="body-copy">The final site should feel like the logo: bright and welcoming, while the content remains clear, specific, and admissions-focused.</p>
+          <div class="method-list">
+            <div class="method-item">
+              <div class="num">1</div>
+              <div><h3>Prepared environment</h3><p>Child-sized materials, ordered shelves, clear routines, and room for movement.</p></div>
+            </div>
+            <div class="method-item">
+              <div class="num">2</div>
+              <div><h3>Teacher observation</h3><p>Teachers guide the next activity by watching readiness, focus, and confidence.</p></div>
+            </div>
+            <div class="method-item">
+              <div class="num">3</div>
+              <div><h3>Parent clarity</h3><p>Admissions flow, visit booking, location, timings, and contact paths stay easy to find.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="split-cta">
+      <div class="wrap">
+        <div>
+          <h2>The strongest CTA is not “apply now.” It is “come see the classroom.”</h2>
+          <p>For preschool parents, the visit builds trust. The final site should push phone, WhatsApp, map, visit timing, and enquiry form without feeling pushy.</p>
+        </div>
+        <a class="btn" href="#enquiry">Schedule Campus Visit</a>
+      </div>
+    </section>
+
+    <section class="section soft" id="admissions" aria-labelledby="admissions-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="admissions-title">A simple admissions path for busy parents.</h2>
+          <p>Parents should not have to search for what to do next. Every path leads to a visit, call, WhatsApp message, or enquiry form.</p>
+        </div>
+        <div class="admission-flow">
+          <div class="flow-step"><strong>Step 1</strong><h3>Send enquiry</h3><p>Parent shares child age, preferred program, and contact details.</p></div>
+          <div class="flow-step"><strong>Step 2</strong><h3>Talk to school</h3><p>The school confirms availability, timings, fee discussion, and visit slot.</p></div>
+          <div class="flow-step"><strong>Step 3</strong><h3>Campus visit</h3><p>Parents see classroom rhythm, materials, and teacher guidance in person.</p></div>
+          <div class="flow-step"><strong>Step 4</strong><h3>Admission next steps</h3><p>The school shares documents and final onboarding details.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="campus" aria-labelledby="campus-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="campus-title">Campus Life and classroom moments.</h2>
+          <p>Replace these stock images with real school photos from Rainbow Montessori School before launch. That will make this section the emotional proof parents need.</p>
+        </div>
+        <div class="gallery">
+          <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1000&q=85" alt="Classroom learning" />
+          <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&w=800&q=85" alt="Children studying" />
+          <img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=800&q=85" alt="School activity" />
+          <img src="https://images.unsplash.com/photo-1607453998774-d533f65dac99?auto=format&fit=crop&w=800&q=85" alt="Classroom materials" />
+          <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=800&q=85" alt="Teacher and child" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft" id="contact" aria-labelledby="contact-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="contact-title">Contact Rainbow Montessori School.</h2>
+          <p>Before going live, replace the placeholders below with the official phone, WhatsApp, email, Instagram, and exact Google Maps link.</p>
+        </div>
+        <div class="contact-grid">
+          <div>
+            <div class="contact-card">
+              <h3>Speak to the school</h3>
+              <p class="body-copy">Use whichever path is easiest. WhatsApp is best for quick parent enquiries; the form is best for admission details.</p>
+              <div class="quick-actions">
+                <a class="btn" href="https://wa.me/91XXXXXXXXXX?text=Hi%20Rainbow%20Montessori%20School%2C%20I%20would%20like%20to%20enquire%20about%20admission." target="_blank" rel="noopener">WhatsApp Admission Enquiry</a>
+                <a class="btn alt" href="mailto:admissions@rainbowmontessori.school?subject=Admission%20enquiry%20-%20Rainbow%20Montessori%20School">Email the School</a>
+              </div>
+              <div class="contact-list">
+                <a href="tel:+91XXXXXXXXXX">Phone: +91 XXXXX XXXXX <small>Replace with official number</small></a>
+                <a href="https://wa.me/91XXXXXXXXXX?text=Hi%20Rainbow%20Montessori%20School%2C%20I%20would%20like%20to%20book%20a%20campus%20visit." target="_blank" rel="noopener">WhatsApp: +91 XXXXX XXXXX <small>Replace with official WhatsApp number</small></a>
+                <a href="mailto:admissions@rainbowmontessori.school">Email: admissions@rainbowmontessori.school <small>Replace with official email</small></a>
+                <a href="#" aria-label="Instagram profile placeholder">Instagram: @rainbowmontessori <small>Replace with official Instagram link</small></a>
+                <div>Address: Rainbow Montessori School, Madambakkam, Chennai <small>Replace with exact street address before launch</small></div>
+              </div>
+            </div>
+            <div class="map-card">
+              <h3>Google Maps</h3>
+              <p>Embed or link the verified school map pin here. For now, this opens a search for Rainbow Montessori School, Madambakkam.</p>
+              <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Rainbow%20Montessori%20School%20Madambakkam%20Chennai" target="_blank" rel="noopener">Open in Google Maps</a>
+            </div>
+          </div>
+
+          <div class="form-card" id="enquiry">
+            <h3>Admission enquiry form</h3>
+            <p class="body-copy">This form is ready for Netlify Forms. After deployment, Netlify can collect submissions without backend code.</p>
+            <form name="admission-enquiry" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+              <input type="hidden" name="form-name" value="admission-enquiry" />
+              <label style="display:none">Do not fill this field<input name="bot-field" /></label>
+              <div class="field-grid">
+                <label>Parent name
+                  <input name="parent-name" type="text" autocomplete="name" required />
+                </label>
+                <label>Phone number
+                  <input name="phone" type="tel" autocomplete="tel" required />
+                </label>
+              </div>
+              <div class="field-grid">
+                <label>Child age
+                  <select name="child-age" required>
+                    <option value="">Select age</option>
+                    <option>2-3 years</option>
+                    <option>3-4 years</option>
+                    <option>4-5 years</option>
+                    <option>5-6 years</option>
+                  </select>
+                </label>
+                <label>Program interest
+                  <select name="program" required>
+                    <option value="">Select program</option>
+                    <option>Toddler Readiness</option>
+                    <option>Casa Montessori</option>
+                    <option>School Readiness</option>
+                    <option>Campus visit first</option>
+                  </select>
+                </label>
+              </div>
+              <label>Email
+                <input name="email" type="email" autocomplete="email" />
+              </label>
+              <label>Message
+                <textarea name="message" placeholder="Tell us your preferred admission month, visit timing, or any questions."></textarea>
+              </label>
+              <button class="btn" type="submit">Submit Enquiry</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-grid">
+      <div>
+        <h3>Rainbow Montessori School</h3>
+        <p>Madambakkam, Chennai. Montessori preschool website prepared for free static hosting. Replace all placeholder contact details before launch.</p>
+      </div>
+      <div><h3>Programs</h3><p>Toddler Readiness<br />Casa Montessori<br />School Readiness</p></div>
+      <div><h3>Parents</h3><p>Admission enquiry<br />Campus visit<br />Fee discussion<br />School timings</p></div>
+      <div><h3>Contact</h3><p>Phone pending<br />WhatsApp pending<br />Instagram pending<br />Google Maps pending</p></div>
+    </div>
+  </footer>
+
+  <a class="floating-whatsapp" href="https://wa.me/91XXXXXXXXXX?text=Hi%20Rainbow%20Montessori%20School%2C%20I%20would%20like%20to%20enquire%20about%20admission." target="_blank" rel="noopener" aria-label="Chat with Rainbow Montessori School on WhatsApp">WA</a>
+</body>
+</html>
